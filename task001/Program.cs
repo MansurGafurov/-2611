@@ -8,4 +8,6 @@ int sum=0;
  for (int i =a; i <= b; i++) 
 { 
     if ((i % 4) == 0)
+        sum = sum + i;
 }
+Console.WriteLine("Sum = " +sum);
