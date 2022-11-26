@@ -1,4 +1,7 @@
-﻿Console.WriteLine("Введите два числа");
+﻿// Найти сумму целых положительных 
+// чисел из промежутка от a до b, кратных четырем.
+
+Console.WriteLine("Введите два числа");
 int a = Convert.ToInt32(Console.ReadLine ());
 int b = Convert.ToInt32(Console.ReadLine ());
 int sum=0;
